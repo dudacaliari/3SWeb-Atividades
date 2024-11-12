@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    margin: 15px;
+}
+
+#btn{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color:#B2E7E8;
+}
+
+.Altera{
+    height: px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-family: rubik;
+    
+}

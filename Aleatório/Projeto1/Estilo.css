@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans,sans-serif;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #4b4b4b;
+  text-align: left;
+  background-color: #8cc1f7;
+}
+
+.Jogo{
+  height: 200px;
+  display: flex;
+  background-color: none;
+  background-color: #8cc1f7;
+}
+
+.baixar{
+  margin: 1%;
+  background-color: rgb(253, 230, 200);
+
+}
+
+.lista1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display:flex;
+  background-color: #0d1c9c;
+}
+
+#item1{
+  margin-left: 6%;
+  color:aliceblue;
+}
+
+#item2{
+  margin-left: 6%;
+  color:aliceblue;
+}
+
+#item3{
+  margin-left: 6%;
+  color:aliceblue;
+}
+
+@keyframes pinguim{
+ 100% {
+  transform: rotate(360deg);
+ }
+}
+
+#logo{
+  width: 90px;
+  height: 90px;
+}
+
+#roda{
+  width: 70px;
+  height: 70px;
+  animation-name: pinguim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#Clubp{
+  margin-left: 6%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(87, 128, 225);
+  color: #ecedee;
+  height: 2px;
+}
+
+@keyframes Aqui{
+  from {margin-left: 90%;}
+  to {margin-right: 90%;}
+}
+
+#aqui{
+  color: red;
+  font-size: 150%; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation-name: Aqui;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#wpp{
+  width: 30%;
+  border-radius: 20%;
+}
+
+#pirataria{
+  color: rgb(0, 0, 0);
+}
+
+#oquee{
+  color: rgb(90, 18, 184);
+}
+
+#crime{
+  color: rgb(90, 18, 184);
+}

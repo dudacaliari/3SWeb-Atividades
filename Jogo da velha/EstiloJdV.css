@@ -1,0 +1,83 @@
+body{
+    font-family: rubik;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.Btns{
+    height: 350px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    font-family: rubik;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color:#B2E7E8;
+}
+
+@media only screen and (min-width: 550px){
+    .col-m-1{
+        width: 8.333%;
+    }
+    
+    .col-m-2{
+        width: 16.6666%;
+    }
+    
+    .col-m-3{
+        width: 25%;
+    }
+    
+    .col-m-4{
+        width: 33.3333%;
+    }
+    
+    .col-m-5{
+        width: 41.6666%;
+    }
+    
+    .col-m-6{
+        width: 50%;
+    }
+    
+    .col-m-7{
+        width: 58.3333%;
+    }
+    
+    .col-m-8{
+        width: 66.6666%;
+    }
+    
+    .col-m-9{
+        width: 75%;
+    }
+    
+    .col-m-10{
+        width: 83.3333%;
+    }
+    
+    .col-m-11{
+        width: 91.6666%;
+    }
+
+    .col-m-12{
+        width: 100%;
+    }
+}

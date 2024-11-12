@@ -1,0 +1,43 @@
+body{
+    background-color: #f3cc93;
+}
+
+.Cabeçalho{
+  background-color: bisque;
+}
+
+.Menu{
+  font-family: Roboto, sans-serif;
+  display:flex;
+  background-color: #472e05ee;
+  width: auto;
+  height: 50px;
+  margin: 0%;
+}
+
+#item1{
+  margin-left: 0%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+}
+  
+#item2{
+  margin-left: 6%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+}
+  
+#item3{
+  margin-left: 6%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+}
+
+#gato1{
+  width: 90px;
+  height: 90px;
+  border-radius: 10%;
+}

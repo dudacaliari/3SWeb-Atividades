@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.Cabeçalho{
+  background-color: black;
+}
+
+.Menu{
+  font-family: Roboto, sans-serif;
+  display:flex;
+  background-color: black;
+  width: auto;
+  height: 50px;
+  margin: 0%;
+}
+
+#item1{
+  margin-left: 0%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+  
+}
+  
+#item2{
+  margin-left: 6%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+}
+  
+#item3{
+  margin-left: 6%;
+  color:aliceblue;
+  position: relative;
+  top: 30%;
+}
+
+#LogoSuddi{
+  width: 90px;
+  height: 50px;
+}

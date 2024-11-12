@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling</title>
+
+    <style>
+        .esconder {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section onclick="alert('Clicou na seção')">
+        <p onclick="alert('Clicou no parágrafo')">
+            Eu sou um parágrafo!
+            <button onclick="alert('clicou no botão')">Click</button>
+        </p>
+    </section>
+
+
+
+
+    <div id="container">
+        Click To Hide
+        <button id="changeColor">Change Color</button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
